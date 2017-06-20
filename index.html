@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <div align="center">
+        <h1 style="color:darkblue" id="quote"></h1>
+    </div>
+
+    <script>
+        var quotes = [
+            "Nothing can stop the man with the right mental attitude from achieving his goal; nothing on earth can help the man with the wrong mental attitude",
+            "Do you want to know who you are? Don't ask. Act! Action will delineate and define you",
+            "Believe you can and you're halfway there",
+            "To be able to give away riches is mandatory if you wish to possess them. This is the only way that you will be truly rich",
+            "Always turn a negative situation into a positive situation",
+            "The best way to destroy an enemy is to make him a friend"
+        ];
+        var quoteNumber = Math.floor((Math.random() * 5) + 0);
+        document.getElementById('quote').innerHTML = quotes[quoteNumber];
+    </script>
+</body>
+
+</html>

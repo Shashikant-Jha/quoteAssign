@@ -1,0 +1,14 @@
+{
+  "name": "assgn1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo"
+  },
+  "author": "shashikant jha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
