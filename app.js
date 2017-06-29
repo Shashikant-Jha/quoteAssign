@@ -9,6 +9,11 @@ app.get('/check', function(request, response) {
     response.send("Hiii");
 });
 
+app.post('/getData', function(request, response) {
+    console.log(req.body);
+    response.send("Hiii");
+});
+
 var port = process.env.PORT || 8080;
 
 var server = app.listen(port, function(req, res) {
